@@ -19,3 +19,15 @@ end
 two_params('two', 2)
 two_params 'two', 2
 
+def with_return
+  var = 'with_return 1'
+  return var
+end
+
+puts with_return
+
+def with_return2
+  'with_return 2'
+end
+
+puts with_return2
