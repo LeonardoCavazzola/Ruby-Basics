@@ -1,6 +1,6 @@
 puts 'Olá'
 puts 'Qual é o seu nome?'
-nome = gets
+nome = gets.strip
 puts "Olá #{nome}"
 
 # comentario
