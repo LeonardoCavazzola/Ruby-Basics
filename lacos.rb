@@ -32,3 +32,12 @@ while true
 end
 
 puts '========================================'
+
+loop do
+  puts 'tentei'
+  if true
+    break
+  end
+end
+
+puts '========================================'
